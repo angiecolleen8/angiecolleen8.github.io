@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-# url:                   https://<username>.github.io
+url:                   https://angelafoley.dev
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -19,7 +19,7 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Angela Foley Dot Dev
+title:                 Angela Foley 
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -43,7 +43,7 @@ author:
   name:                Angela Foley
   email:              angiecolleen8@gmail.com
   # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  github:             angiecolleen8
 
 # Add links to the sidebar.
 menu:
@@ -293,11 +293,10 @@ remote_theme: qwtel/hydejack@v8.4.0
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+  name:                Angela Foley
+  links:
+    - https://github.com/angiecolleen8
 
 
 # Other Plugins
