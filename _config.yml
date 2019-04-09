@@ -48,7 +48,7 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             Blog
-    url:               /blog/
+    url:               /
   - title:             Resume
     url:               /resume/
   - title:             Projects
