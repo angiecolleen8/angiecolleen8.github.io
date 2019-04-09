@@ -2,6 +2,9 @@
 @import "button";
 @import "type";
 
+.container {
+  font-size: 10px
+}
 ul.icons a:hover {
   background: rgba(0, 0, 0, 0.025);
 }
