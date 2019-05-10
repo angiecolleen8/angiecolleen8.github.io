@@ -16,7 +16,7 @@
     * Built android app that matches skilled volunteers to non-profits seeking skilled labor, allowing volunteers a more meaningful volunteering experience and enabling non-profits to receive skilled labor at no cost.    
     * Redesigned data model to better express data relationships, allowing for faster searches and smoother app navigation
     * Created new backend for volunteer and non-profit match app
-    * Polished front end design details, which you can see at https://github.com/TheBatteries/Energizer
+    * Polished front end design details, which you can see under **Projects** then **GiveBack**
 - company: Next Generation Service Corps
   link: ngsc-app.org
   job_title: Front End Developer

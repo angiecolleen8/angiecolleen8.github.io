@@ -1,7 +1,21 @@
-- name: Super awesome project
-  link: github.com/sproogen
-  github: sproogen/resume-theme
+- name: GiveBack
+  link: https://github.com/TheBatteries/Energizer
+  github: TheBatteries/Energizer
   quote: >
-    This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+    GiveBack is an android app that matches volunteers to non-profit opportunities.
   description: | # this will include new lines to allow paragraphs
-    I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+    GiveBack allows volunteers to select preferences for volunteering opportunties such as skill set, cause area interests, location, and time availability. Non-profit organizations are able to post open volunteer opportunities and positions. Volunteers can browse open volunteer positions by scrolling through their feed, or see a more focused volunteer opportunity search based on their preferences.
+- name: NGSC App
+  link: https://ngsc-app.org/
+  github:
+  quote: >
+    The Next Generation Service Corps (NGSC) App allows the student leadership program of over 600 members to be more connected.
+  description: | # this will include new lines to allow paragraphs
+    This app allows program members to log participation in service and internships, as well as access all relevant program information in one place. 
+- name: Flicks
+  link: https://github.com/angiecolleen8/Flicks
+  github: angiecolleen8/Flicks
+  quote: >
+    Flicks, a Flixster spinoff app, was one of the earlier apps I made.
+  description: | # this will include new lines to allow paragraphs
+    This app allows users to browse movie titles currently in theatres. You can checkout a video demo of the app on the gitbhub link.
