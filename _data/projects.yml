@@ -11,7 +11,21 @@
   quote: >
     The Next Generation Service Corps (NGSC) App allows the student leadership program of over 600 members to be more connected.
   description: | # this will include new lines to allow paragraphs
-    This app allows program members to log participation in service and internships, as well as access all relevant program information in one place. 
+    On this website, program members can log participation in service and internships, as well as access all relevant program information in one place. 
+- name: Tweeter
+  link: https://github.com/angiecolleen8/Twitter
+  github: angiecolleen8/Twitter
+  quote: >
+    Tweeter is my fully functional mock Twitter app!
+  description: | # this will include new lines to allow paragraphs
+    Tweeter allows users to create an account, compose and post tweets, and scroll through their tweet feed. Demo on github.
+- name: Mock Insta
+  link: https://github.com/angiecolleen8/Flicks
+  github: angiecolleen8/Flicks
+  quote: >
+    Flicks, a Flixster spinoff app, was one of the earlier apps I made.
+  description: | # this will include new lines to allow paragraphs
+    This app allows users to browse movie titles currently in theatres. You can checkout a video demo of the app on the gitbhub link.
 - name: Flicks
   link: https://github.com/angiecolleen8/Flicks
   github: angiecolleen8/Flicks
