@@ -18,12 +18,12 @@
   quote: >
     Tweeter is my fully functional mock Twitter app!
   description: | # this will include new lines to allow paragraphs
-    Tweeter allows users to create an account, compose and post tweets, and scroll through their tweet feed. Demo on github.
+    Tweeter allows users to create an account, compose and post tweets, and scroll through their tweet feed. Video demo in README on github.
 - name: Mock Insta
-  link: https://github.com/angiecolleen8/Flicks
-  github: angiecolleen8/Flicks
+  link: https://github.com/angiecolleen8/Insta
+  github: angiecolleen8/Insta
   quote: >
-    Flicks, a Flixster spinoff app, was one of the earlier apps I made.
+    On mock insta, users can view and create image-based posts.
   description: | # this will include new lines to allow paragraphs
     This app allows users to browse movie titles currently in theatres. You can checkout a video demo of the app on the gitbhub link.
 - name: Flicks

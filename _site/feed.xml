@@ -1,2 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2019-05-10T13:50:19-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Angela Foley</title><subtitle>&quot;TODO: Describe my cute little website.&quot;.
-</subtitle><author><name>Angela Foley</name><email>angiecolleen8@gmail.com</email></author><entry><title type="html">Git 101</title><link href="http://localhost:4000/2019-04-06-git-101/" rel="alternate" type="text/html" title="Git 101" /><published>2019-04-06T23:30:00-07:00</published><updated>2019-04-06T23:30:00-07:00</updated><id>http://localhost:4000/git-101</id><content type="html" xml:base="http://localhost:4000/2019-04-06-git-101/">&lt;p&gt;Testing out functionality. TODO!&lt;/p&gt;</content><author><name>Angela Foley</name><email>angiecolleen8@gmail.com</email></author><summary type="html">Testing out functionality. TODO!</summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2019-05-12T21:30:51-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Angela Foley</title><subtitle>&quot;TODO: Describe my cute little website.&quot;.
+</subtitle><author><name>Angela Foley</name><email>angiecolleen8@gmail.com</email></author><entry><title type="html">Wanna get git?</title><link href="http://localhost:4000/2019-04-06-git-101/" rel="alternate" type="text/html" title="Wanna get git?" /><published>2019-04-06T23:30:00-07:00</published><updated>2019-04-06T23:30:00-07:00</updated><id>http://localhost:4000/git-101</id><content type="html" xml:base="http://localhost:4000/2019-04-06-git-101/">&lt;p&gt;If the words “git”, “commit”, or “push” initiate a wave of anxious sweats for you, rest assured, you are not so unlike me not too long ago. Hopefully, we will ease that anxiety right now. I’ll give an overview of git, an abstraction of how git works, and steps for creating a new repo, committing, and examining prior versions of your code (we’ll pick up with this on the next post).&lt;/p&gt;
+
+&lt;p&gt;Git allows you to manage different versions of your code. You can think of Git as allowing you to “time travel” backwards and forwards through checkpoints (or “commits”) in changes made to files. Sounds powerful, right? It is.&lt;/p&gt;
+
+&lt;p&gt;Any time you are working on a coding project, especially with more than one person, you will definitely want to be using some type of version control system (VCS). Git is a popular VCS choice.&lt;/p&gt;
+
+&lt;p&gt;Anytime you “save” or “commit” in git, you create a new “checkpoint” that you can return to at any point in time. It is to your advantage to commit often! More commits mean you have more previous versions of your files that you can go back to.&lt;/p&gt;
+
+&lt;p&gt;A repository, or “repo”, is a subdirectory (“sub-folder”) that lives in the same directory (“folder”) as your project; it is a data structure built of commit objects (“checkpoints”) and parent-child pointers responsible for tracking versions of your content. Your working directory is where you actually modify your code.&lt;/p&gt;
+
+&lt;p&gt;Let’s walk through a couple basic commands to give you a feel for working with git.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;In terminal, make a directory (this where your project and repo will live).&lt;br /&gt;
+ mkdir demo //mkdir = “make directory”&lt;/li&gt;
+  &lt;li&gt;Change your working directory to your new directory.&lt;br /&gt;
+ cd demo //cd = “change directory”&lt;/li&gt;
+  &lt;li&gt;Initialize a git repository.&lt;br /&gt;
+ git init&lt;/li&gt;
+  &lt;li&gt;Create and open a file.&lt;br /&gt;
+ touch demo.txt&lt;br /&gt;
+ start demo.txt&lt;/li&gt;
+  &lt;li&gt;Edit and save the file. (Mine reads “1st version”.)&lt;/li&gt;
+  &lt;li&gt;Tell git which files to track by adding them.&lt;br /&gt;
+ git add demo.txt&lt;/li&gt;
+  &lt;li&gt;Make your first commit and leave a message.&lt;br /&gt;
+ git commit -m “First commit!”&lt;/li&gt;
+  &lt;li&gt;Make an edit to your file and save. (Mine now reads “2nd version.”)&lt;/li&gt;
+  &lt;li&gt;Add and commit your files again.&lt;br /&gt;
+ git add demo.txt
+ git commit -m “Second commit!”&lt;br /&gt;
+Now we’ll have a look at this “time traveling” business. Say that you think you might want to go back to a previous version of your code.&lt;/li&gt;
+  &lt;li&gt;Look at your logs to find the commit you want to go back to.&lt;br /&gt;
+git reflog&lt;br /&gt;
+Reference logs offer lots of useful information, but right now we are just concerned about our prior commits. With reflog, we can see commit numbers. Copy the commit number of the commit you would like to go back to (here, we want the commit number of the first commit).&lt;/li&gt;
+  &lt;li&gt;Here’s the time travel step. We’re going to step into a previous version of our code.&lt;br /&gt;
+git checkout &lt;em&gt;commit number&lt;/em&gt; //Your commit # should be a 7 character code. Mine is “d073494”.&lt;br /&gt;
+	Don’t believe me about the time traveling thing? Take a look at your demo.txt file. What does it read? If it reads “1st version”, congratualtions, you are a proper time traveler.
+Now that we’ve time traveled back to a previous commit, we can look at, edit, and even continue working off of a previous commit.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Since the purpose of this demo was to inspire a will to learn git and help you time travel for the first time, I’ll stop here. I’ll follow up next time with what you can do once you’ve found the commit that you were looking for.&lt;/p&gt;</content><author><name>Angela Foley</name><email>angiecolleen8@gmail.com</email></author><summary type="html">If the words “git”, “commit”, or “push” initiate a wave of anxious sweats for you, rest assured, you are not so unlike me not too long ago. Hopefully, we will ease that anxiety right now. I’ll give an overview of git, an abstraction of how git works, and steps for creating a new repo, committing, and examining prior versions of your code (we’ll pick up with this on the next post).</summary></entry></feed>

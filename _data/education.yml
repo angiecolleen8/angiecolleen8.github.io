@@ -6,3 +6,11 @@
   description: | # this will include new lines to allow paragraphs
     GPA: 4.0  
     Outside of my computer science courses, I've pursued coursework in leadership, mathematics, and music performance.
+- name: Westwood High School
+  dates: May 2017
+  qualification: International Baccalaureate Program Diploma Recipient
+  quote: >
+    Valedictorian
+  description: | # this will include new lines to allow paragraphs
+    GPA: 4.0  
+    #1 in class of 631
