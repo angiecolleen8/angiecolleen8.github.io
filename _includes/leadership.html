@@ -1,0 +1,31 @@
+<div class="container leadership-container">
+  <h3>{{ site.leadership_title | default: "Leadership" }}</h3>
+  {% for leadership in site.data.leadership %}
+    <div class="row clearfix leadership">
+      <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
+        <h4 class="name">
+          {%- if leadership.link -%}
+            {% include a.html href=leadership.link %}
+          {%- endif -%}
+          {{ leadership.company }}
+          {%- if leadership.link -%}
+            </a>
+          {%- endif -%}
+          </h4>
+        <p><b>{{ leadership.job_title }}</b></p>
+        <p>{{ leadership.dates }}</p>
+        {% for job in leadership.jobs %}
+          <p><b>{{ job.title }}</b></p>
+          <p>{{ job.dates }}</p>
+        {% endfor %}
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+        {%- if leadership.quote -%}
+          <p class="quote">{{ leadership.quote }}</p>
+        {%- endif -%}
+        {{ leadership.description | strip | markdownify }}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+

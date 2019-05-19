@@ -17,6 +17,10 @@ layout: base
                 {%- include education.html -%}
             {%- endif -%}
 
+            {%- if site.data.leadership.size > 0 -%}
+                {%- include leadership.html -%}
+            {%- endif -%}
+
             {%- include more.html -%}
 
         </div>

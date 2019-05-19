@@ -24,6 +24,10 @@ line-height
         {%- include education.html -%}
       {%- endif -%}
 
+      {%- if site.data.leadership.size > 0 -%}
+        {%- include leadership.html -%}
+      {%- endif -%}
+
       {%- if site.more_content -%}
         {%- include more.html -%}
       {%- endif -%}
