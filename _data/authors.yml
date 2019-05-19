@@ -21,9 +21,11 @@ author1:
 
   # Social media icons in sidebar.
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
-  # social:
-  #   github:         jekyllrb
-  #   linkedin:        <url>
+  social:
+    github:         angiecolleen8
+    linkedin:       https://www.linkedin.com/in/angela-foley/
+    stackoverflow:   11516172/Angela Colleen
+
     # twitter:         jekyllrb
     # download:        <url>
     # email:           <mail@domain.tld>
@@ -51,7 +53,6 @@ author1:
     # pinterest:       <username>
     # foursquare:      <number>
     # yelp:            <string>
-    # stackoverflow:   <number/username>
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>

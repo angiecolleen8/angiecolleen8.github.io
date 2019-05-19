@@ -44,7 +44,10 @@ author:
   email:              angiecolleen8@gmail.com
   picture:            /assets/icons/angela_profile.png
   # Used by `jekyll-seo-tag`:
-  github:             angiecolleen8
+  social:
+    github:             angiecolleen8
+    linkedin:       https://www.linkedin.com/in/angela-foley/
+    stackoverflow:   11516172/Angela Colleen
 
 # Add links to the sidebar.
 menu:
