@@ -3,9 +3,10 @@
   job_title: Software Engineering Intern
   dates: May 2019 - August 2019  
   quote: >
-   Collaborates with Facebook Software Engineers on the Care Engineering Machine Learning team to find malacious content on the platform
+   Collaborates with Facebook Software Engineers on the Care Engineering Machine Learning team to find and take appropriate action on malacious content on the platform.
   description: | # this will include new lines to allow paragraphs
-    * More to come!
+    * Expanding internal tools that identify potentially malacious content to work for the Instagram platform
+    * Technologies used include C++, Mercurial, Hack, Php
 - company: Facebook
   link: 
   job_title: Software Engineering Intern
@@ -17,6 +18,7 @@
     * Redesigned data model to better express data relationships, allowing for faster searches and smoother app navigation
     * Created new backend for volunteer and non-profit match app
     * Polished front end design details, which you can see under **Projects** then **GiveBack**
+    * Technologies used include Android Studio, Java, Git, GitHub, and android.
 - company: Next Generation Service Corps
   link: ngsc-app.org
   job_title: Front End Developer
@@ -25,4 +27,4 @@
    Worked with team of Software Engineers to build website for leadership program of over 600 students, thereby furthering student involvement and program connectedness
   description: | # this will include new lines to allow paragraphs
      * Created webpage for students to log internship experiences    
-     * Used React and CSS modules
+     * Technologies used include React, CSS modules, Git, and GitHub.
